@@ -1,9 +1,10 @@
-server.port: 8081
 
 spring:
   datasource:
+    dbcp2:
+      driver-class-name: org.postgresql.Driver
     platform: postgres
-    url: jdbc:postgresql://localhost:5432/academia
+    url: jdbc:postgresql://localhost:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyData
     username: postgres
     password: postgres
 
