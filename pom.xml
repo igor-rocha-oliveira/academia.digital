@@ -14,7 +14,7 @@
 	<name>academia-digital</name>
 	<description>Modelando sistema de academia de ginástica</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -32,7 +32,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
+			<version>42.3.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
